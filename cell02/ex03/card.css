@@ -1,0 +1,50 @@
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.card-container {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    text-align: center;
+}
+
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile-table td {
+    padding: 10px 0;
+    border: none; 
+}
+.profile-pic {
+    width: 100%; 
+    border-radius: 5px;
+}
+
+.social-icons img {
+    width: 25px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.contact-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact-btn:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,15 @@
+const btn = document.getElementById('Chang-Color');
+
+function randomColor(){
+  let r = Math.floor(Math.random() * 256);
+  let g = Math.floor(Math.random() * 256);
+  let b = Math.floor(Math.random() * 256);
+
+  return `rgb(${r}, ${g}, ${b})` ;
+}
+
+$(document).ready(function() {
+            $('#Change-Color').click(function() {
+                $('body').css('background-color', randomColor());
+            });
+        });
